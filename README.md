@@ -1,1 +1,1 @@
-www.martinrgb.com/index.html
+[Martin](http://www.martinrgb.com/)
