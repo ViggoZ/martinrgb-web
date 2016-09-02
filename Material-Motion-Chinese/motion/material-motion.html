@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+  'Futurizr': {
+    'hasTouch': 'touch'
+  }
+}">
+  <head>
+    <meta charset="utf-8">
+    <link href="../static/css/main.css" rel="stylesheet" />
+    <link href="../static/css/print.css" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/images/favicon-v1.ico">
+    <meta name="viewport" content="initial-scale=1, width=device-width"/>
+    <meta name="keywords" content=""/>
+    <title>Material motion - Motion - Google design guidelines</title>
+    <meta itemprop="name" content="Material motion - Motion - Google design guidelines"/>
+    <meta itemprop="image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png"/>
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Material motion - Motion - Google design guidelines" />
+    <meta property="og:image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png" />
+    <meta property="og:site_name" content="Google design guidelines" />
+    <meta property="article:section" content="Material motion - Motion" />
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?986a4ac9a0ea1cdd9f8c45583d736c8a";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+<!--
+<PageMap>
+    <DataObject type="document">
+      <Attribute name="uid"></Attribute>
+      <Attribute name="title">Material motion</Attribute>
+      <Attribute name="keywords"></Attribute>
+      <Attribute name="slug"></Attribute>
+      <Attribute name="description"></Attribute>
+      <Attribute name="section_title">Motion</Attribute>
+      <Attribute name="section_slug">motion</Attribute>
+    </DataObject>
+    <DataObject type="thumbnail">
+      <Attribute name="src" value="" />
+    </DataObject>
+</PageMap>
+-->
+
+  </head>
+
+  <body class="site-material_ext_publish section-motion first-chapter color-purple qp-ui" data-qp-ui="{ 'Mask': {} }">
+        <header class="qp-ui" data-qp-ui="{
+  'Peekaboo': {
+    'mobile': 72,
+    'desktop-sm': 72,
+    'default': 192
+  }
+}">
+  <div class="header-wrapper qp-ui" data-qp-ui="{
+    'Peekaboo': {
+      'mobile': 28,
+      'desktop-sm': 28,
+      'default': 82
+    }
+  }">
+    <div class="header-title">      <span class="section-title">Motion (Translated by MartinRGB)</span>
+      <span class="chapter-title"><span class="title-separator">–</span> Material motion</span>
+        </div>
+  </div>
+
+</header>
+
+<nav>
+  <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab"><i class="material-icons material-spec-icon" title="Show navigation">menu</i></button>
+</nav>
+
+<form id="search-form" action="/design/spec/search.html" method="GET">
+  <div class="search-widget qp-ui" data-qp-ui="{ 'SearchInput': {} }">
+    <button class="search-button"><i class="material-icons">search</i></button>
+    <button class="search-close-button"><i class="material-icons">close</i></button>
+    <input name="q" type="text" id="search-input" autocomplete="off">
+    <label for="search-input">Search</label>
+  </div>
+</form>
+
+
+
+
+<div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+  <div class="side-nav-wrapper">
+    <span id="logo"><img src="../static/images/nav_google_logo.svg" alt="Logo"/></span>
+    <nav>
+      <dl>
+                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Motion
+                </dt>
+        <dd>
+                    <a class="nav_selected" href="material-motion.html">Material motion
+                    </a>
+                    <a class="" href="duration-easing.html">持续时间和缓动
+                    </a>
+                    <a class="" href="movement.html">元素的运动
+                    </a>
+                    <a class="" href="transforming-material.html">Material 的变形
+                    </a>
+                    <a class="" href="choreography.html">动画的组织
+                    </a>
+                    <a class="" href="creative-customization.html">自定义创意动画
+                    </a>
+                  </dd>
+              </dl>
+    </nav>
+
+        <div class="legal">
+      <p class="copyright">Google &copy;</p>
+
+    </div>
+  </div>
+</div>
+
+    <div id="grid-cont">
+      <section class="grid_outer chapter">
+  <h1 class="chapter-title">Material motion
+          </h1>
+    <div class="chapter-content">
+
+        <div class="chapter-intro">
+            <p>在 Material Design 的世界中，优美流畅的动态效果可以描述空间关系，展示功能，体现产品意图</p>
+<figure>
+  <div class="media">
+      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+      <video crossorigin="anonymous" preload="metadata" loop  controls>
+              <source src="../video1/MaterialMotionHero_Spec_0505.webm" type="video/webm" />
+            </video>
+    </div>
+    </div>
+</figure>
+
+
+
+    </div>
+
+        <nav class="chapter-toc">
+      <h1>目录</h1>
+      <ul>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="material-motion.html#material-motion-why-does-motion-matter">动效为何重要？
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="material-motion.html#material-motion-how-does-material-move">Material 元素如何移动？
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="material-motion.html#material-motion-what-makes-a-good-transition">如何设计优秀的转场效果？
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="material-motion.html#material-motion-implications-of-motion">动效的提示作用
+                </a></li>
+              </ul>
+    </nav>
+
+    <div class="article-list">
+                        <div id="material-motion-why-does-motion-matter" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+  <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+    动效为何重要？
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>动态效果能够展示 APP 元素是如何组织到一块的，也能体现出这些元素的功能性。 </p><p>动效提供了: </p><ul><li>在不同视图之间引导用户有效聚焦</li><li>在用户完成手势操作后，暗示用户操作可能的结果</li><li>展示了不同元素之间的层级和空间关系</li><li>缓解用户的等待，让应用处理数据（例如抓取内容或者读取新视图）</li><li>个性化，新鲜感，愉悦感</li></ul>
+    </div>
+  </section>
+
+        </div>
+              </div>
+  </div>
+</div>                  <div id="material-motion-how-does-material-move" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+  <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+    Material 元素如何移动？
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>Material Design 的动画系统灵感来自现实世界中力的相互作用，例如重力和摩擦力。我们动画系统中这些“力”体现在用户交互时，操作对于屏幕上元素的影响，以及元素之间的反应。</p><p>Material 的设计理念在动效设计中，主要通过以下几个特点体现:</p>
+    </div>
+  </section>
+
+        </div>
+              <div>
+          <section class="moduleE1">
+    <div class="module-body">
+    <h4>迅速响应</h4><p>Material 是充满能量的. Material 元素可以快速在用户输入处触发反馈。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video crossorigin="anonymous" preload="metadata" loop  controls>
+                              <source src="../video1/Responsive_01_Durations-v1.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>一般来说，移动设备上，幅度较大的动画时间 300~400ms 为佳，幅度较小的动画可以短至 150~200ms。如果持续时间过长或过短，会让用户感到反应迟钝或者无法跟上。</p><p>更多可见 <a href="duration-easing.html#duration-easing-common-durations">通用持续时间</a>.</p>
+        </figcaption>
+              </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01YVB4OXVzV3NQR3M" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/Responsive_02_Feedback-v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>在用户触控点处迅速向外扩散，涟漪效果能够让用户确认输入有效。卡片升起，提示用户卡片处于激活状态。</p><p>更多可见 <a href="choreography.html#choreography-radial-reaction">径向反馈</a>.</p>
+        </figcaption>
+                </figure>
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01MkJzdEZuY0E5YXM" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/Responsive_03_SurfaceConnection-v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>展示了元素和材质(Material)之间的关系，或者展现材质面(Surface)和元素被创建的过程和行为</p><p>更多可见 <a href="choreography.html#choreography-creation">创建</a>.</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleE1">
+    <div class="module-body">
+    <h4>自然</h4><p>真实世界中的运动受力的影响，同理，Material 的动画应该是自然的。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01aWFoSHhFRVRpZW8" crossorigin="anonymous" preload="metadata" loop  controls>
+                              <source src="../video1/Natural_01_Easing-v1.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>在真实世界中，受重量和表面摩擦力的影响，物体在运动时，能够迅速加速或减速。因此，在 Material Design 中，物体不能突然开始运动，也不能突然结束运动。</p><p>更多可见 <a href="duration-easing.html#duration-easing-natural-easing-curves">自然的缓动曲线</a>.</p>
+        </figcaption>
+              </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01SktIam0yei0wSnM" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/Natural_02_Arc-v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>这个动画的灵感来自真实世界中的重力，物体的运动呈一条弧线，而不是直线。</p><p>更多可见 <a href="movement.html#movement-movement-within-screen-bounds">元素的运动</a>.</p>
+        </figcaption>
+                </figure>
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01bzJOUXhfTTVZY28" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/Natural_03_Transform-v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>Material 的变形也呈弧线趋势。</p><p>更多可见 <a href="transforming-material.html">Material 的变形</a>.</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <h4>感知性</h4><p>Material 能够感知到周围的元素和用户的输入。它能够被其他物体吸引，也能够根据用户的操作意图适当的的响应。 </p><p>更多可见 <a href="choreography.html">动画的组织</a>.</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01TFFreDdlSVp3dGc" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/Aware_01_Choreo-v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>当元素通过过渡动画进入视图时，元素的运动有序一致，动画根据彼此之间的关系进行了组织。</p>
+        </figcaption>
+                </figure>
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01RFdjQWE4ZXBseWM" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/Aware_02_MoveAway-v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>Material 可以将其他材质(Material)推到一边。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01YXR3cjNJeUdRNG8" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/Aware_03_Magnets-v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>当元素互相接近时，元素可以吸引其他元素加入。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <h4>动画意图</h4><p>Material 的动画可以指引用户在合适的时间聚焦在合适的位置上。</p><p>更多可见 <a href="choreography.html#choreography-continuity">连贯性</a>.</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01SDNmSjRhbE9FNVU" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/Intentional_01_Focus-v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>这个过渡动画可以引导用户进行下一步的交互。</p>
+        </figcaption>
+                </figure>
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01RF9qdXlyMC1ETDA" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/Intentional_03_Disabled-v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>利用动画的运动感，向用户传递不同的信号，比如提示用户操作是否不可用。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01akJiWVBnT3Bkc1U" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/Intentional_02_Ring-v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>动画可以让用户聚焦重要元素</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  <div id="material-motion-what-makes-a-good-transition" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+  <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+    如何设计优秀的转场效果？
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>优秀的动效设计具备以下几个特点：</p>
+    </div>
+  </section>
+
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <h4>迅捷</h4><p>交互动画不应让用户等待时间过长。 </p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01aHJmMm9aR3JvazQ" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/GoodTransition_QuickDo-v4.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>动画迅捷，用户基本不需要“等”动画</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01bDBVZE5ndzctZW8" crossorigin="anonymous" preload="metadata"  loop  controls>
+                            <source src="../video1/GoodTransition_QuickDont-v4.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>迟钝、且大量元素参与的动画，会增加用户的等待时间。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <h4>清晰</h4><p>过渡动画应该清晰、简洁、一致。添加动画的元素不宜过多。 </p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01NDkzU2FaYlFHMXM" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/GoodTransition_ClearDo-v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>在转场进入下一个视图时，动画维持清晰的运动轨迹，大量元素成组，以便连贯组织动画。</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01VzRvLWJDTEE4WXM" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/GoodTransition_ClearDont-v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>当动画元素过多，且运动方向杂乱交叉时，转场会让用户感到混淆。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleE1">
+    <div class="module-body">
+    <h4>一致</h4><p>Material Design中动画元素的速度感、反馈感和意图性应该高度一致。在自定义设计 APP 的动态体验时，应该考虑整体应用的动态一致性。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01eG45MUV2blJQTWc" crossorigin="anonymous" preload="metadata" loop  controls>
+                              <source src="../video1/GoodTransition_Cohesive-v4.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>尽管这些应用的功能不同，但是相似的动画体验，让用户感觉这几个应用有关联。</p>
+        </figcaption>
+              </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  <div id="material-motion-implications-of-motion" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+  <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+    动效的提示作用
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <p>我们可以通过接下来的两个案例比较出这些动效设计模式的好处，其中一个遵循了这些设计模式，另一些并未遵循。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01Um1wdzhBR1ZuYVE" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/ImplicationsDo-v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>在转场过程中，用户被有效的引导进入下一个视图。新的材质面（Surface）的变形体现了层级，用渐现的方式呈现内容，减少用户在读取数据时的感知时间，减少焦虑</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01anJjQkt4QS1GRzQ" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video1/ImplicationsDont-v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>这个动画中，因为缺乏过渡动画，现有的动画效果也没有清晰的视觉焦点，新旧视图之间的关系并没有清晰的展现。界面元素之间的层级关系也没有体现，圆形旋转读取动画过于明显。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  </div>
+
+  </div>
+
+</section>    </div>
+
+    <footer>
+  <div class="footer-grid">
+    <div class="footer-L section-what-is-material color-light-blue">&nbsp;</div>
+    <div class="footer-grid-L section-what-is-material color-light-blue">
+            <a class="footer-text" href="creative-customization.html">
+        <i class="material-icons arrow-L">arrow_back</i>
+        <span class="direction">上一页</span>
+        <div>
+                      自定义创意动画
+                  </div>
+      </a>
+          </div>
+
+    <div class="footer-R section-motion color-purple">&nbsp;</div>
+    <div class="footer-grid-R section-motion color-purple">
+            <a class="footer-text" href="duration-easing.html">
+        <i class="material-icons arrow-R">arrow_forward</i>
+        <span class="direction">下一页</span>
+        <div>
+                      持续时间和缓动
+                  </div>
+      </a>
+          </div>
+
+  </div>
+</footer>
+    <script src="https://www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script>
+    <script src="../static/js/main.js"></script>
+              <script src="https://www.gstatic.com/feedback/api.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+  'Futurizr': {
+    'hasTouch': 'touch'
+  }
+}">
+  <head>
+    <meta charset="utf-8">
+    <link href="../static/css/main.css" rel="stylesheet" />
+    <link href="../static/css/print.css" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/images/favicon-v1.ico">
+    <meta name="viewport" content="initial-scale=1, width=device-width"/>
+    <meta name="keywords" content=""/>
+    <title>Transforming material - Motion - Google design guidelines</title>
+    <meta itemprop="name" content="Transforming material - Motion - Google design guidelines"/>
+    <meta itemprop="image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png"/>
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Transforming material - Motion - Google design guidelines" />
+    <meta property="og:image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png" />
+    <meta property="og:site_name" content="Google design guidelines" />
+    <meta property="article:section" content="Transforming material - Motion" />
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?986a4ac9a0ea1cdd9f8c45583d736c8a";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+<!--
+<PageMap>
+    <DataObject type="document">
+      <Attribute name="uid"></Attribute>
+      <Attribute name="title">Transforming material</Attribute>
+      <Attribute name="keywords"></Attribute>
+      <Attribute name="slug"></Attribute>
+      <Attribute name="description"></Attribute>
+      <Attribute name="section_title">Motion</Attribute>
+      <Attribute name="section_slug">motion</Attribute>
+    </DataObject>
+    <DataObject type="thumbnail">
+      <Attribute name="src" value="" />
+    </DataObject>
+</PageMap>
+-->
+  </head>
+
+  <body class="site-material_ext_publish section-motion noninitial-chapter color-purple qp-ui" data-qp-ui="{ 'Mask': {} }">
+        <!-- Google Tag Manager -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NHRPF8');</script>
+      <!-- End Google Tag Manager -->
+        <header>
+  <div class="header-wrapper">
+    <div class="header-title">      <span class="section-title">Motion</span>
+      <span class="chapter-title"><span class="title-separator">–</span> Material的变形</span>
+        </div>
+  </div>
+
+</header>
+
+<nav>
+  <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab"><i class="material-icons material-spec-icon" title="Show navigation">menu</i></button>
+</nav>
+
+<form id="search-form" action="/design/spec/search.html" method="GET">
+  <div class="search-widget qp-ui" data-qp-ui="{ 'SearchInput': {} }">
+    <button class="search-button"><i class="material-icons">search</i></button>
+    <button class="search-close-button"><i class="material-icons">close</i></button>
+    <input name="q" type="text" id="search-input" autocomplete="off">
+    <label for="search-input">Search</label>
+  </div>
+</form>
+
+
+
+
+<div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+  <div class="side-nav-wrapper">
+    <span id="logo"><img src="../static/images/nav_google_logo.svg" alt="Logo"/></span>
+    <nav>
+      <dl>
+                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Motion
+                </dt>
+        <dd>
+                    <a class="" href="material-motion.html">Material motion
+                    </a>
+                    <a class="" href="duration-easing.html">持续时间和缓动
+                    </a>
+                    <a class="" href="movement.html">元素的运动
+                    </a>
+                    <a class="nav_selected" href="transforming-material.html">Material 的变形
+                    </a>
+                    <a class="" href="choreography.html">动画的组织
+                    </a>
+                    <a class="" href="creative-customization.html">自定义创意动画
+                    </a>
+                  </dd>
+              </dl>
+    </nav>
+
+        <div class="legal">
+      <p class="copyright">Google &copy;</p>
+
+    </div>
+  </div>
+</div>
+
+    <div id="grid-cont">
+      <section class="grid_outer chapter">
+  <h1 class="chapter-title">Maeterial 的变形
+          </h1>
+    <div class="chapter-content">
+
+        <div class="chapter-intro">
+            <p>Material Design 的动画设计通过对形状、尺寸的处理，让元素可以扩展收缩，从而使材质面(Surface)富有活力感和鲜活感。</p>
+
+
+
+    </div>
+
+        <nav class="chapter-toc">
+      <h1>目录</h1>
+      <ul>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="transforming-material.html#transforming-material-rectangular-transformation">矩形变换
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="transforming-material.html#transforming-material-radial-transformation">径向变换
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="transforming-material.html#transforming-material-joining-dividing">连接 &amp; 分离
+                </a></li>
+              </ul>
+    </nav>
+
+    <div class="article-list">
+                        <div id="transforming-material-rectangular-transformation" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+  <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+    矩形变换
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>当 Material 元素改变形状和尺寸时，它的宽度和高度根据动画曲线异步变化。通过 <a href="choreography.html">动画的组织</a> 让其周围的材质面（Surface）和内部的材质面元素有序运动。</p><p>所有的材质变换都发生在屏幕内，例如下面这个动画，使用了 <a href="duration-easing.html#duration-easing-natural-easing-curves">标准曲线</a>. </p>
+    </div>
+  </section>
+
+        </div>
+              <div>
+          <section class="moduleE1">
+      <h3>宽度和高度的变化</h3>
+    <div class="module-body">
+    <p>通过异步或同步改变元素的宽度和高度，可以实现收缩或扩张的效果。</p><p><strong>异步变换</strong> 让宽度和高度以不同步的运动方式变化。当动画元素较多，或者元素位移不是单纬时，可以考虑异步变换动画。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01LVVjNmRKcDBveEU" crossorigin="anonymous" preload="metadata" loop  controls>
+                              <source src="../video4/Rect_01_ExpandOffset_v6-remapped.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">异步变换</div><p>在扩展对象的尺寸时，我们可以观察到宽度的扩张要略微先于高度的扩张。在缩小对象的尺寸时，我们可以观察到高度的缩小要略微先于宽度的缩小。 </p>
+        </figcaption>
+              </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleE1">
+    <div class="module-body">
+    <p><strong>同步变换</strong> 让宽度和高度以同样的运动方式变化。当动画元素单一，或者元素位移是单纬时，可以考虑同步变换动画。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01Q2dhWDJJNWR0REE" crossorigin="anonymous" preload="metadata" loop  controls>
+                              <source src="../video4/Rect_02_ExpandRobot_v6-remapped.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">同步变换</div><p>高度和宽度以同样的运动方式变化，这种观念动画缺乏细节，最好在处理简单的形状元素时使用。同步变换动画的整体持续时间可以稍微比异步变换动画的整体持续时间短一些。</p>
+        </figcaption>
+              </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <p>当对象的扩张动画是异步变换时，对象所包含的物体（例如文本或图像）要以恒定的比例缩放，以免动画伸展生硬不自然。关于材质面(Surface)上信息内容动画的知识，可以参考 <a href="choreography.html">动画的组织</a>.</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01eGU1VnRHQ0txUWs" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video4/Rect_04_ThumbnailContent_v6-remapped.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>即便容器（比如说这个卡片）是按照异步变换进行缩放动画的，信息内容 (比如全宽图像) 也要按照恒定比例进行变换。</p>
+        </figcaption>
+                </figure>
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01VXVxNm5GNHowbVU" crossorigin="anonymous" preload="metadata"  loop  controls>
+                            <source src="../video4/Rect_03_Thumbnail_v6-remapped.mp4" type="video/mp4" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>当容器内内容是全出血布局时，容器可以采用同步变换动画。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  <div id="transforming-material-radial-transformation" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+  <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+    径向变换
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <p>径向变换是同步变换动画，要根据用户输入点的位置，实现圆形动画的变换。径向变换动画一般应用于圆形材质面(Surface)，将其变形为其他形状。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01dEdMYnh5RVZ6QTg" crossorigin="anonymous" preload="metadata"  loop  controls>
+                            <source src="../video4/Radial_01_RadialExpand_v4-remapped.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>圆形材质面(Surface)变换为矩形材质面(Surface)时，可以使用径向变换动画。也可以在用户输入点处创建新材质面(Surface)。</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01MFQ5RXhRUHJhODA" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video4/Radial_02_DontRadial_v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>不要在矩形与矩形的变化动画中使用径向变换。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01Q0FHN2k2R3VfZ28" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video4/Radial_03_DontOval_v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>不要异步变换圆的宽度和高度。</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01dFpRb3NzMFdDa00" crossorigin="anonymous" preload="metadata"  loop  controls>
+                                <source src="../video4/Radial_03_DontShape_v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>不可应用于复杂形状的变换。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <p>在使用径向变换动画时，要么根据对象当前的位置展开动画效果，要么根据变换后形状的中心点展开动画效果。 </p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01dFhwekx5R3BsNGM" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video4/Radial_04_RadialArc_v5-remapped.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>在拓展过程中，FAB(Floating Action Button) 通过弧形位移轨迹移动到最终位置，与此同时通过径向变换扩展为卡片。</p>
+        </figcaption>
+                </figure>
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01VHg4Q3BOUzc0ams" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video4/Radial_05_RadialArc_v5-remapped.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>在材质面形状变化过程中，FAB(Floating Action Button) 的中心点不变化，这样的拓展效果更精致一些。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  <div id="transforming-material-joining-dividing" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+  <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+    连接 &amp; 分离
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <h4>连接</h4><p>Material 元素可以通过连接加入其它 Material 元素中，同理，一个 Material 元素也可以分离成多个 Maeterial 元素。当两块 Material 元素靠近彼此时开始连接，在最终融合完成前，边缘会相接、覆盖。 </p><h4>分离</h4><p>当 Maeterial 元素开始分离时，多个元素块同时开始分割动画。 </p><h4>阴影</h4><p>Material 元素块的阴影不会叠加到其它元素块上。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01R0VuUWJkel9iZGc" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video4/Join_01_JoinDivide_v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>Material 元素连接与分离的案例</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  </div>
+
+  </div>
+
+</section>    </div>
+
+    <footer>
+  <div class="footer-grid">
+    <div class="footer-L section-motion color-purple">&nbsp;</div>
+    <div class="footer-grid-L section-motion color-purple">
+            <a class="footer-text" href="movement.html">
+        <i class="material-icons arrow-L">arrow_back</i>
+        <span class="direction">上一页</span>
+        <div>
+                      元素的运动
+                  </div>
+      </a>
+          </div>
+
+    <div class="footer-R section-motion color-purple">&nbsp;</div>
+    <div class="footer-grid-R section-motion color-purple">
+            <a class="footer-text" href="choreography.html">
+        <i class="material-icons arrow-R">arrow_forward</i>
+        <span class="direction">下一页</span>
+        <div>
+                      动画的组织
+                  </div>
+      </a>
+          </div>
+
+  </div>
+</footer>
+    <script src="https://www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script>
+    <script src="../static/js/main.js"></script>
+              <script src="https://www.gstatic.com/feedback/api.js"></script>
+
+  </body>
+
+</html>

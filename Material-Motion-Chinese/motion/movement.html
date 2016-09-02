@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+  'Futurizr': {
+    'hasTouch': 'touch'
+  }
+}">
+  <head>
+    <meta charset="utf-8">
+    <link href="../static/css/main.css" rel="stylesheet" />
+    <link href="../static/css/print.css" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/images/favicon-v1.ico">
+    <meta name="viewport" content="initial-scale=1, width=device-width"/>
+    <meta name="keywords" content=""/>
+    <title>Movement - Motion - Google design guidelines</title>
+    <meta itemprop="name" content="Movement - Motion - Google design guidelines"/>
+    <meta itemprop="image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png"/>
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Movement - Motion - Google design guidelines" />
+    <meta property="og:image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png" />
+    <meta property="og:site_name" content="Google design guidelines" />
+    <meta property="article:section" content="Movement - Motion" />
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?986a4ac9a0ea1cdd9f8c45583d736c8a";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+<!--
+<PageMap>
+    <DataObject type="document">
+      <Attribute name="uid"></Attribute>
+      <Attribute name="title">Movement</Attribute>
+      <Attribute name="keywords"></Attribute>
+      <Attribute name="slug"></Attribute>
+      <Attribute name="description"></Attribute>
+      <Attribute name="section_title">Motion</Attribute>
+      <Attribute name="section_slug">motion</Attribute>
+    </DataObject>
+    <DataObject type="thumbnail">
+      <Attribute name="src" value="" />
+    </DataObject>
+</PageMap>
+-->
+  </head>
+
+  <body class="site-material_ext_publish section-motion noninitial-chapter color-purple qp-ui" data-qp-ui="{ 'Mask': {} }">
+        <!-- Google Tag Manager -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NHRPF8');</script>
+      <!-- End Google Tag Manager -->
+        <header>
+  <div class="header-wrapper">
+    <div class="header-title">      <span class="section-title">Motion</span>
+      <span class="chapter-title"><span class="title-separator">–</span> 元素的运动</span>
+        </div>
+  </div>
+
+</header>
+
+<nav>
+  <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab"><i class="material-icons material-spec-icon" title="Show navigation">menu</i></button>
+</nav>
+
+<form id="search-form" action="/design/spec/search.html" method="GET">
+  <div class="search-widget qp-ui" data-qp-ui="{ 'SearchInput': {} }">
+    <button class="search-button"><i class="material-icons">search</i></button>
+    <button class="search-close-button"><i class="material-icons">close</i></button>
+    <input name="q" type="text" id="search-input" autocomplete="off">
+    <label for="search-input">Search</label>
+  </div>
+</form>
+
+
+
+
+<div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+  <div class="side-nav-wrapper">
+    <span id="logo"><img src="../static/images/nav_google_logo.svg" alt="Logo"/></span>
+    <nav>
+      <dl>
+                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Motion
+                </dt>
+        <dd>
+                    <a class="" href="material-motion.html">Material motion
+                    </a>
+                    <a class="" href="duration-easing.html">持续时间和缓动
+                    </a>
+                    <a class="nav_selected" href="movement.html">元素的运动
+                    </a>
+                    <a class="" href="transforming-material.html">Material 的变形
+                    </a>
+                    <a class="" href="choreography.html">动画的组织
+                    </a>
+                    <a class="" href="creative-customization.html">自定义创意动画
+                    </a>
+                  </dd>
+              </dl>
+    </nav>
+
+        <div class="legal">
+      <p class="copyright">Google &copy;</p>
+
+    </div>
+  </div>
+</div>
+
+    <div id="grid-cont">
+      <section class="grid_outer chapter">
+  <h1 class="chapter-title">元素的运动
+          </h1>
+    <div class="chapter-content">
+
+        <div class="chapter-intro">
+            <p>Material Design 的动态效果受到真实世界中作用力的影响，比如说重力。 </p>
+
+
+
+    </div>
+
+        <nav class="chapter-toc">
+      <h1>目录</h1>
+      <ul>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="movement.html#movement-movement-within-screen-bounds">屏幕范围内的运动
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="movement.html#movement-movement-in-out-of-screen-bounds">屏幕范围的入场和退场
+                </a></li>
+              </ul>
+    </nav>
+
+    <div class="article-list">
+                        <div id="movement-movement-within-screen-bounds" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+  <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+    屏幕范围内的运动
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>屏幕范围内两点的位移变化可以按照自然、凹形的轨迹运动。所有这些屏幕内元素的运动使用 <a href="duration-easing.html#duration-easing-natural-easing-curves">标准曲线</a>。</p>
+    </div>
+  </section>
+
+        </div>
+              <div>
+          <section class="moduleD1">
+      <h3>上升弧形运动</h3>
+    <div class="module-body">
+    <p>真实世界中物体的上升需要抵消重力的影响。屏幕内元素的上升也要模拟这种效果，缓缓上升时，加速曲线要体现这种抵消重力的感觉。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01R1pOdFdNUm0yOFk" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video3/ShiftWithin_01_Upward_Do_v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>当对角上升时，开始的上坡轨迹弧线平缓，结束时上坡轨迹曲线陡峭。 </p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01bUdzZ0h0c2pVV2c" crossorigin="anonymous" preload="metadata"  loop  controls>
+                            <source src="../video3/ShiftWithin_02_Upward_Dont_v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>颠倒了物理作用，上升时忽略了重力的下拉作用，动画看起来不自然。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+      <h3>下降弧形运动</h3>
+    <div class="module-body">
+    <p>真实世界中物体的下坠受到重力的加速。屏幕内元素的下降也要模拟这种效果。快速下降时，动画曲线要体现重力的加速的感觉。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01aEtyaEJxTWxYOFE" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video3/ShiftWithin_03_Downward_Do_v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>当对角下降时，开始的下坡轨迹弧线陡峭，结束时上坡轨迹曲线平缓。</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01YzZTMWZ5dDZSV28" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video3/ShiftWithin_04_Downward_Dont_v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>颠倒了物理作用，下降时忽略了重力的向下作用。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+      <h3>非弧形运动</h3>
+    <div class="module-body">
+    <p>当对象的位移是单纬度时（单独垂直运动或者单独水平运动），不要使用弧型运动。运动要简洁，速度稍微快一些。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01MklRMTduTWRvT00" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video3/NoArc_01_SingleAxis_Do_v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>让单纬度运动保持直线。</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01T2U4SnpZU0YtdnM" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video3/NoArc_02_SingleAxis_Dont_v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>不要在单纬度位移运动中使用不自然的弧形轨迹。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <p>元素的入场和退场也要单维运动。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01N1dzQWhCek9Sb1E" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video3/NoArc_03_ShiftInOutArcDo_v3-device.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>直线路径的入场动画轨迹清晰，能够看出进入点，用户的视线容易跟随。 </p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01bDdNV2pxaDJYQ3c" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video3/NoArc_04_ShiftInOutArcDont_v3-device.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>元素退场时不要使用弧形路径，因为这种动画无法清晰体现进入点。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  <div id="movement-movement-in-out-of-screen-bounds" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+  <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+    屏幕范围的入场和退场
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+          <h3>独立运动动画</h3>
+        <div class="module-body">
+      <p>这类动画适用于：对象进行入场和退场的动画时，需要独立处理该对象，不影响屏幕内其他内容的位置。</p>
+    </div>
+  </section>
+
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <h4>进入屏幕</h4><p>对象进入屏幕时使用 <a href="duration-easing.html#duration-easing-natural-easing-curves">减速曲线</a>，以便快速入场，屏幕内的减速运动能暗示出(或让用户感受出)对象的最高速率。</p><h4>永久离开屏幕</h4><p>对象 <strong>永久</strong> 离开屏幕时使用 <a href="duration-easing.html#duration-easing-natural-easing-curves">加速曲线</a>，在更短的运动持续时间内，加速元素的退场。这样的运动感让觉得元素已经走出去很远了，不会再回来了，减少了用户的聚焦注意。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01V3c5cHRmbmlYYkE" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video3/InOut_01_ShiftInOutDo_v3-device.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>物体使用减速曲线入场，不影响屏幕内周围其它元素的位置。在移动端，这个动画的持续时间至少为 225ms。当该元素永久退场时，使用加速曲线，在移动端，这个动画的持续时间至少为 195ms。</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01WTg0VDIxYzJSdk0" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video3/InOut_02_ShiftInOutDont_v3-device.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>入场和退场时不要使用标准曲线。入场时，加速曲线会让用户全程聚焦对象，而我们需要的只是用户在动画结束时用户关注一下最终位移点。退场时，减速曲线毫无必要，因为用户根本观测不到运动的结束点（结束点在屏幕外）。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <h4>临时离开屏幕</h4><p>对象 <strong>临时</strong> 离开屏幕应该使用 <a href="duration-easing.html#duration-easing-natural-easing-curves">Sharp 曲线</a>, 因为对象很可能在任何时间回到屏幕内，因此需要打造一种对象虽然在屏幕外，但是走的不远，触手可及。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01alI4QmJZcVhoUE0" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video3/InOut_03_ShiftOutTempDo_v4-device.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>随时可能回归的对象可以使用 Sharp 曲线临时退场。当对象回归入场时，使用减速曲线。在移动端，这个动画时间一般至少为 300ms。</p>
+        </figcaption>
+                </figure>
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01aWJxbzZwWl9FR2s" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video3/InOut_04_ShiftOutTempDont_v4-device.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>某些情况下，如果对象回归入场时方向和退场方向不同的话，对象临时离场时也可以使用加速曲线，而回归入场使用减速曲线。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+              <section class="moduleB1">
+          <h3>关联运动动画</h3>
+        <div class="module-body">
+      <p>这类动画适用于：入场和退场的对象需要和屏幕内其他元素关联运动，要使用平滑的缓动曲线，这样动画幅度会小一些，显得不乱，不过分引起用户注意。</p>
+    </div>
+  </section>
+
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+    <p><a href="duration-easing.html#duration-easing-natural-easing-curves">标准曲线</a> 可以在对象关联运动时（且有一个对象入场或退场）使用。相比上面的独立运动动画，这种动画持续时间稍微长一些。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01Qm1pV0ZjWnZIQmc" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video3/InOut_05_ShiftInOutRelativeDo_v3-device.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>屏幕内的 FAB 运动受到入场的卡片影响，两个对象采用了同样的标准曲线，整体运动显得非常流畅。在移动端，这种动画时间一般不少于 300ms。</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01RkhFaTRGN0J6UTg" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video3/InOut_06_ShiftInOutRelativeDont_v3-device.mp4" type="video/mp4" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>在对象上升和下降时使用减速曲线和加速曲线，这让 FAB 的运动感线的非常突兀。这个动画的运动感非常粗糙、混乱。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  </div>
+
+  </div>
+
+</section>    </div>
+
+    <footer>
+  <div class="footer-grid">
+    <div class="footer-L section-motion color-purple">&nbsp;</div>
+    <div class="footer-grid-L section-motion color-purple">
+            <a class="footer-text" href="duration-easing.html">
+        <i class="material-icons arrow-L">arrow_back</i>
+        <span class="direction">上一页</span>
+        <div>
+                      持续时间和缓动
+                  </div>
+      </a>
+          </div>
+
+    <div class="footer-R section-motion color-purple">&nbsp;</div>
+    <div class="footer-grid-R section-motion color-purple">
+            <a class="footer-text" href="transforming-material.html">
+        <i class="material-icons arrow-R">arrow_forward</i>
+        <span class="direction">下一页</span>
+        <div>
+                      Material 的变形
+                  </div>
+      </a>
+          </div>
+
+  </div>
+</footer>
+    <script src="https://www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script>
+    <script src="../static/js/main.js"></script>
+              <script src="https://www.gstatic.com/feedback/api.js"></script>
+
+  </body>
+
+</html>

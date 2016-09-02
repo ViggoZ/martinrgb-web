@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+  'Futurizr': {
+    'hasTouch': 'touch'
+  }
+}">
+  <head>
+    <meta charset="utf-8">
+    <link href="../static/css/main.css" rel="stylesheet" />
+    <link href="../static/css/print.css" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/images/favicon-v1.ico">
+    <meta name="viewport" content="initial-scale=1, width=device-width"/>
+    <meta name="keywords" content=""/>
+    <title>Choreography - Motion - Google design guidelines</title>
+    <meta itemprop="name" content="Choreography - Motion - Google design guidelines"/>
+    <meta itemprop="image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png"/>
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Choreography - Motion - Google design guidelines" />
+    <meta property="og:image" content="https://material-design.storage.googleapis.com/publish/material_v_4/social.png" />
+    <meta property="og:site_name" content="Google design guidelines" />
+    <meta property="article:section" content="Choreography - Motion" />
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?986a4ac9a0ea1cdd9f8c45583d736c8a";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+<!--
+<PageMap>
+    <DataObject type="document">
+      <Attribute name="uid"></Attribute>
+      <Attribute name="title">Choreography</Attribute>
+      <Attribute name="keywords"></Attribute>
+      <Attribute name="slug"></Attribute>
+      <Attribute name="description"></Attribute>
+      <Attribute name="section_title">Motion</Attribute>
+      <Attribute name="section_slug">motion</Attribute>
+    </DataObject>
+    <DataObject type="thumbnail">
+      <Attribute name="src" value="" />
+    </DataObject>
+</PageMap>
+-->
+  </head>
+
+  <body class="site-material_ext_publish section-motion noninitial-chapter color-purple qp-ui" data-qp-ui="{ 'Mask': {} }">
+        <!-- Google Tag Manager -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NHRPF8');</script>
+      <!-- End Google Tag Manager -->
+        <header>
+  <div class="header-wrapper">
+    <div class="header-title">      <span class="section-title">Motion</span>
+      <span class="chapter-title"><span class="title-separator">–</span> 动画的组织</span>
+        </div>
+  </div>
+
+</header>
+
+<nav>
+  <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab"><i class="material-icons material-spec-icon" title="Show navigation">menu</i></button>
+</nav>
+
+<form id="search-form" action="/design/spec/search.html" method="GET">
+  <div class="search-widget qp-ui" data-qp-ui="{ 'SearchInput': {} }">
+    <button class="search-button"><i class="material-icons">search</i></button>
+    <button class="search-close-button"><i class="material-icons">close</i></button>
+    <input name="q" type="text" id="search-input" autocomplete="off">
+    <label for="search-input">Search</label>
+  </div>
+</form>
+
+
+
+
+<div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+  <div class="side-nav-wrapper">
+    <span id="logo"><img src="../static/images/nav_google_logo.svg" alt="Logo"/></span>
+    <nav>
+      <dl>
+                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Motion
+                </dt>
+        <dd>
+                    <a class="" href="material-motion.html">Material motion
+                    </a>
+                    <a class="" href="duration-easing.html">持续时间和缓动
+                    </a>
+                    <a class="" href="movement.html">元素的运动
+                    </a>
+                    <a class="" href="transforming-material.html">Material 的变形
+                    </a>
+                    <a class="nav_selected" href="choreography.html">动画的组织
+                    </a>
+                    <a class="" href="creative-customization.html">自定义创意动画
+                    </a>
+                  </dd>
+              </dl>
+    </nav>
+
+        <div class="legal">
+      <p class="copyright">Google &copy;</p>
+
+    </div>
+  </div>
+</div>
+
+    <div id="grid-cont">
+      <section class="grid_outer chapter">
+  <h1 class="chapter-title">动画的组织
+          </h1>
+    <div class="chapter-content">
+
+        <div class="chapter-intro">
+            <p>Material Design 的动效设计能够通过元素的过渡动画，让用户的交互操作有所聚焦。</p>
+
+
+
+    </div>
+
+        <nav class="chapter-toc">
+      <h1>目录</h1>
+      <ul>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="choreography.html#choreography-continuity">连贯性
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="choreography.html#choreography-creation">创建
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="choreography.html#choreography-radial-reaction">径向反馈
+                </a></li>
+              </ul>
+    </nav>
+
+    <div class="article-list">
+                        <div id="choreography-continuity" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+  <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+    连贯性
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>在动画过程中，要审慎的选择共享元素的数量和类型，来构建清晰的视觉焦点。 </p>
+    </div>
+  </section>
+
+        </div>
+              <div>
+          <section class="moduleE1">
+      <h3>所有当前内容都为共享元素</h3>
+    <div class="module-body">
+    <p>当材质面（Surface）扩张时，一些元素应该全程保持可见，应该将它们做为两种状态的共享元素。 </p><p>而复杂的动画效果应该保证某一重要元素全程清晰可见（见下）</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01QVZSczJTMU03OFk" crossorigin="anonymous" preload="metadata" loop  controls>
+                              <source src="../video5/Continuity_01_AllShared_v6-remapped.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>All elements from this collapsed card form the header of the expanded card.</p>
+        </figcaption>
+              </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleE1">
+      <h3>少数内容或没有内容做为共享元素</h3>
+    <div class="module-body">
+    <p>材质面（Surface）扩张时，如果仅仅有 <strong>单一元素</strong> 在转场完成后保留，那么这个元素应该成为动画的视觉焦点，以这个元素为依据，统一控制其它元素。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01VUdTaW40WXFvdGM" crossorigin="anonymous" preload="metadata" loop  controls>
+                              <source src="../video5/Continuity_02_SingleShared_v6-remapped.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>在单一共享元素的动画中，利用锚点移动，将共享元素打造为视觉焦点。</p>
+        </figcaption>
+              </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleE1">
+    <div class="module-body">
+    <p>如果视图之间 <strong>没有共享元素</strong>,将所有淡入淡出的元素的Y轴运动和材质面的Y轴运动关联。材质面包含并裁剪内容。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01cTJpOEljSkFRMFU" crossorigin="anonymous" preload="metadata" loop  controls>
+                              <source src="../video5/Continuity_03_NoShared_v7-remapped.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>将所有非共享元素的 Y 轴运动和材质面(Surface)高度扩展的运动关联。</p>
+        </figcaption>
+              </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleE1">
+      <h3>没有共享材质面(不推荐)</h3>
+    <div class="module-body">
+    <p>可以接受没有共享元素，然而不推荐没有共享材质面(Surface)，如果 <strong>没有共享材质面</strong> 来完成动画过渡效果，那么新的材质面要从屏幕外入场，以便构建新的视觉焦点。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+      <h3>多个共享元素</h3>
+    <div class="module-body">
+    <p>当动画前后保留有 <strong>多个共享元素</strong> 时，要让最重要的共享元素始终可见。如果重要等级较低的共享元素动画较为复杂混乱，可以考虑让它们在动画过程中消失，然后在动画结束后出现。 </p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01X245dlIxV0MxSTQ" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video5/Continuity_04_SharedDo_v6-remapped.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>用最重要的共享元素引导用户的视觉焦点至下一个视图。</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01c1B2a3lFX0VJc1k" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video5/Continuity_05_SharedDont_v6-remapped.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>要避免毫无焦点的动画，例如动画过程中展示过多的共享元素，或让共享元素的位移路径交叉，这都是错误的动画做法。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+      <h3>布局感知性</h3>
+    <div class="module-body">
+    <p>当动画完成后，元素没有完全加载时，在元素加载处要保留有足够的空间，以便元素加载完成后出现。这种处理避免了当新元素出现时布局改变。而且，避免了用户在此时操作出现的界面元素突然偏移的现象。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01TGhVWlZaam5CNVU" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video5/Continuity_06_LayoutAwareDo_v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>在动画过程中，为未加载完成的元素腾出空间，然后在读取完成时优雅的展示。</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01YmlONlA3bHhVM2s" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video5/Continuity_07_LayoutAwareDont_v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>当元素读取完成，进入视图时，不要让布局产生大幅偏移，这会让用户改变注意焦点，从而分心。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  <div id="choreography-creation" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+  <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+    创建
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>创建新的 Material 材质面（Surface），创建新的内容，或者凭空创建元素。</p>
+    </div>
+  </section>
+
+        </div>
+              <div>
+          <section class="moduleD1">
+      <h3>Creating new surfaces</h3>
+    <div class="module-body">
+    <p>要在 操作响应处 或 代表创建含义的视觉元素处 创建新的材质面(Surface)。新的材质面(Surface)一般通过径向或矩形拓展从点击处出现。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01dlRtbVRzaFlqT1E" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video5/CreationChoreo_01_OriginDo_v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>菜单从触控点处出现，将元素和触控点联系起来。</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01VFhFT3hhR3Y2SW8" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video5/CreationChoreo_02_OriginDont_v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>菜单从触控点的远方出现，破坏了输入与创建元素之间的联系性。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+      <h3>组织有序的材质面(Surface)动画</h3>
+    <div class="module-body">
+    <p>当多个材质面同时被创建，整体的运动要参差有序。构建清晰、流畅、动画路径焦点明确、线性方向的动画。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01MlpxcWE2X1VVNU0" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video5/CreationChoreo_03_StaggerDo_v3.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>列表项动画的入场感非常富有层次。栅格项从左往右，从上往下依次执行动画。</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01U3JadF8wNWxkSzg" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video5/CreationChoreo_04_StaggerDont_v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>元素不应该全部一起出现。这种动画给人负担过重，无法构建清晰的视觉焦点。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+    <div class="module-body">
+
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01a0RSSWZSdXVPaUk" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video5/CreationChoreo_05_StaggerDont_v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>元素的出现顺序应该有规律、有层次，否则用户会感到混淆，难以跟上动画。</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01WXRmVEJzNWRkMU0" crossorigin="anonymous" preload="metadata"  loop  controls>
+                            <source src="../video5/CreationChoreo_05b_StaggerDont_v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>不要等其它元素的动画执行完成后，才开始当前元素的动画。每个元素之间动画执行的延迟不应该超过20ms。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleD1">
+      <h3>材质面(Surface)的自动创建</h3>
+    <div class="module-body">
+    <p>有些情况下，无需用户输入，也没有明确的起始点，材质面就自动出现。这时应该利用运动感，合理结合渐入渐出，位移，缩放等变换，构建优雅的出场动画。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class=" example do">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01Znc0RmE0Ni0taFU" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video5/CreationChoreo_06_NewDialogueDo_v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Do.</div><p>自动触发出现的材质面(Surface)动画，这个动画流畅迅捷。</p>
+        </figcaption>
+                </figure>
+            <figure class=" example dont">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01U3R3TVlrZzh6dTQ" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video5/CreationChoreo_07_NewDialogueDont_v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <div class="caption-title">Don't.</div><p>材质(Surface)面出现的动画显得非常繁琐，让用户感到分心。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  <div id="choreography-radial-reaction" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+  <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+    径向反馈
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>利用径向反馈动画，让用户输入和材质面(Surface)的反馈无缝结合。</p>
+    </div>
+  </section>
+
+        </div>
+              <div>
+          <section class="moduleD1">
+      <h3>用户输入</h3>
+    <div class="module-body">
+    <p>通过使用触控涟漪效果，来提示用户操作的触控点，可以让用户输入和屏幕反馈无缝结合，也能让用户知晓操作有效。这个效果出现在鼠标点击或手指触控的位置上。</p><p>触控点中心位置的反馈要比触控点远处位置的反馈快。</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01WUt2SFZkbGVuNVk" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video5/RR_Point_of_Contact_001.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>使用触控涟漪效果，明确触控与屏幕反馈间关系。</p>
+        </figcaption>
+                </figure>
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01NVRScVpxWTVXeVU" crossorigin="anonymous" preload="metadata"  loop  controls>
+                              <source src="../video5/02_SearchRipple-v2.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>从顶部触点的位置向外开始动画，涟漪式扩散出新的颜色。</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleE1">
+    <div class="module-body">
+
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+              <video id="1-None_0B14F_FSUCc01eGdZQnRQYlRXek0" crossorigin="anonymous" preload="metadata" loop  controls>
+                              <source src="../video5/01_GridRipple.webm" type="video/webm" />
+                            </video>
+            </div>
+                    </div>
+                        <figcaption>
+          <p>依据触控点的位置径向反馈出网格中图像的淡出动画。</p>
+        </figcaption>
+              </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  </div>
+
+  </div>
+
+</section>    </div>
+
+    <footer>
+  <div class="footer-grid">
+    <div class="footer-L section-motion color-purple">&nbsp;</div>
+    <div class="footer-grid-L section-motion color-purple">
+            <a class="footer-text" href="transforming-material.html">
+        <i class="material-icons arrow-L">arrow_back</i>
+        <span class="direction">上一页</span>
+        <div>
+                      Material 的变形
+                  </div>
+      </a>
+          </div>
+
+    <div class="footer-R section-motion color-purple">&nbsp;</div>
+    <div class="footer-grid-R section-motion color-purple">
+            <a class="footer-text" href="creative-customization.html">
+        <i class="material-icons arrow-R">arrow_forward</i>
+        <span class="direction">下一页</span>
+        <div>
+                      自定义创意动画
+                  </div>
+      </a>
+          </div>
+
+  </div>
+</footer>
+    <script src="https://www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script>
+    <script src="../static/js/main.js"></script>
+              <script src="https://www.gstatic.com/feedback/api.js"></script>
+
+  </body>
+
+</html>
